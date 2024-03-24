@@ -11,7 +11,7 @@ hostname = buy.itunes.apple.com
 
 */
 var Rnik = JSON.parse($response.body);
-guding = {
+    Rnik= {
   "environment": "Production",
   "pending_renewal_info": [
     {
