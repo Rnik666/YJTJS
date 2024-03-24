@@ -1,25 +1,13 @@
+/*
+
 [rewrite_local]
-^https?:\/\/leancloud.emotionwp.com\/.*\/classes\/wpf_account url script-response-body 
-https://raw.githubusercontent.com/Rnik666/YJTJS/main/BZ.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/BZ.js
 
 [mitm] 
 hostname = leancloud.emotionwp.com
-*
-*
+
+
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 var body = $response.body; 
 let obj = JSON.parse($response.body);
