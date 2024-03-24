@@ -1,9 +1,10 @@
 /*
+Chat AI
 
 ‎
 
 [rewrite_local]
-^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/ChatAI.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt$ url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/Chat%20AI.js
 
 [MITM]
 hostname = buy.itunes.apple.com
@@ -14,7 +15,7 @@ guding = {
   "environment": "Production",
   "pending_renewal_info": [
     {
-      "product_id": "https://t.me/Guding88",
+      "product_id": "Rnik666 ",
       "auto_renew_status": "1"
     }
   ],
@@ -29,7 +30,7 @@ guding = {
       "transaction_id": "540001260447637",
       "is_trial_period": "false",
       "original_transaction_id": "540001260447637",
-      "product_id": "https://t.me/Guding88",
+      "product_id": "Rnik666 ",
       "original_purchase_date_ms": "1688386974000",
       "expires_date_ms": "148204937166000"
     }
