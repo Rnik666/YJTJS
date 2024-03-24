@@ -2,7 +2,7 @@
 极简时钟@Rnik支持
 
 [rewrite_local]
-^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Guding88/Script/main/jijianshizhong.js
+^https?:\/\/api\.revenuecat\.com\/v1\/(subscribers\/[^\/]+$|receipts$) url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/JJSZ.js
 
 [MITM]
 hostname = api.revenuecat.com
