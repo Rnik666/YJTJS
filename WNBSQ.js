@@ -14,7 +14,7 @@ hostname = www.40sishi.com
 
 
 var body = $response.body; 
-let obj = JSON.parse($response.body);
+let Rnik= JSON.parse($response.body);
 Rnik.data.vipState.state = 1;
 Rnik.data.vipState.forever = true;
 Rnik.data.name = "Rnik666 ";
