@@ -1,7 +1,7 @@
 /*
 
 [rewrite_local]
-^https?:\/\/leancloud.emotionwp.com\/.*\/classes\/wpf_account url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/BZ.js
+^https?:\/\/leancloud.emotionwp.com\/.*\/classes\/wpf_account url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/1BZ.jS
 
 [mitm] 
 hostname = leancloud.emotionwp.com
