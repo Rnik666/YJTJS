@@ -1,6 +1,8 @@
+@Rnik支持
 
+/*
 [rewrite_local]
-^https?:\/\/bzpp2\.iwzbz\.com\/api\/.+\/(user\/getvipinfo|User\/getWXPW) url script-response-body https://raw.githubusercontent.com/chxm1023/Rewrite/main/wenzhenpaipan.js
+^https?:\/\/bzpp2\.iwzbz\.com\/api\/.+\/(user\/getvipinfo|User\/getWXPW) url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/WZPP.js
 
 [mitm]
 hostname = bzpp2.iwzbz.com
