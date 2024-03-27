@@ -11,9 +11,9 @@ hostname = bzpp2.iwzbz.com
 
 var Rnik = JSON.parse($response.body);
 
-chxm1023.isSuccess = true;
-chxm1023.validateKey = "Rnik666 ";
-chxm1023.data = {
+Rnik.isSuccess = true;
+Rnik.validateKey = "Rnik666 ";
+Rnik.data = {
     "expires" : "9999-09-09 09:09:09",
     "vipLevel" : 3
   };
