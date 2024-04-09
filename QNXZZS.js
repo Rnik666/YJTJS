@@ -1,8 +1,7 @@
 /*
 
 [rewrite_local]
-^https?:\/\/mapi\.mbtools\.work\/chatapp-dev\/classes\/_User\/9LcwGZpCLL url script-response-body
-[MITM]
+^https?:\/\/mapi\.mbtools\.work\/chatapp-dev\/classes\/_User\/9LcwGZpCLL url script-response-bodyhttps://raw.githubusercontent.com/Rnik666/YJTJS/main/QNXZZS.js
 hostname = mapi.mbtools.work
 
 */
