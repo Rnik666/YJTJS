@@ -32,7 +32,7 @@ Rink= {
   "Country" : "CN",
   "objectId" : "9LcwGZpCLL",
   "email" : "ed6428ecc29f7b9cb09781e29e8ca8bc@example.com",
-  "vip_time_stamp" : 1712925662,
+  "vip_time_stamp" : 4092667442,
   "iap_contiu" : 1,
   "invite_ask_count" : 0,
   "sessionToken" : "r:b2c1baf77ace0e8522bbf4d71f1f6843",
