@@ -7,7 +7,7 @@
 ^http:\/\/api\.(saidu\.services|ztvbox\.com)\/saidun\/version2\/v2_detail url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SDJSQ.js
 
 [MITM]
-hostname =api.saidu.services,api.ztvbox.com
+hostname = api.saidu.services,api.ztvbox.com
 
 */
 var Rnik = JSON.parse($response.body);
