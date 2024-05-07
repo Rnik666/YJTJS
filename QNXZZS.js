@@ -1,7 +1,7 @@
 */
 
 [rewrite_local]
-^https?:\/\/mapi\.mbtools\.work\/chatapp-dev\/classes\/_User url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/QNXZZS.js
+^https?:\/\/mapi\.mbtools\.work\/chatapp-dev\/classes\/_User\/9LcwGZpCLL url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/QNXZZS.js
 hostname = mapi.mbtools.work
 
 */
@@ -34,6 +34,7 @@ Rink= {
   "email" : "ed6428ecc29f7b9cb09781e29e8ca8bc@example.com",
   "vip_time_stamp" : 4092667442,
   "iap_contiu" : 1,
+  "iap_refund" : true,
   "invite_ask_count" : 9999999999,
   "sessionToken" : "r:b2c1baf77ace0e8522bbf4d71f1f6843",
   "username" : "ed6428ecc29f7b9cb09781e29e8ca8bc"
