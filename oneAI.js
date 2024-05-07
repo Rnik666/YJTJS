@@ -1,3 +1,13 @@
+/*
+one AI@Rnik666
+
+[rewrite_local] 
+^https?:\/\/service-hgtbohj8-1259001022\.gz\.apigw\.tencentcs\.com\/release\/requestUserData url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/oneAI.js
+
+[MITM]
+hostname = service-hgtbohj8-1259001022.gz.apigw.tencentcs.com
+
+*/
 var Rnik = JSON.parse($response.body);
 Rnik = {
   
