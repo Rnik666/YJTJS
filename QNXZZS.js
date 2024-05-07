@@ -8,8 +8,8 @@ hostname = mapi.mbtools.work
 var Rink= JSON.parse($response.body);
 Rink= {
   "iap_no" : "com.allinone.aiwritemasterrobot11",
-  "invite_count" : 0,
-  "free_use" : 3,
+  "invite_count" : 999999999999,
+  "free_use" : 99999999999,
   "iap" : {
     "__type" : "Pointer",
     "className" : "iap_info",
@@ -34,7 +34,7 @@ Rink= {
   "email" : "ed6428ecc29f7b9cb09781e29e8ca8bc@example.com",
   "vip_time_stamp" : 4092667442,
   "iap_contiu" : 1,
-  "invite_ask_count" : 0,
+  "invite_ask_count" : 9999999999,
   "sessionToken" : "r:b2c1baf77ace0e8522bbf4d71f1f6843",
   "username" : "ed6428ecc29f7b9cb09781e29e8ca8bc"
 }
