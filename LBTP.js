@@ -1,3 +1,13 @@
+/*
+乐播投屏@Rnik666
+
+[rewrite_local] 
+ ^https?:\/\/saas\.hpplay\.cn\/api\/lebo-member\/app\/member\/relation\/rights? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/LBTP.js
+
+[MITM]
+hostname = saas.hpplay.cn
+  
+*/
 var Rnik = JSON.parse($response.body);
 Rnik = {
   "code": 200,
