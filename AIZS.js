@@ -1,3 +1,11 @@
+/*AI助手@Rnik666
+
+[rewrite_local] 
+^https?:\/\/ainvud\.mingnianbaofu\.top\/api\/app\/user\/getCurrentInfo url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AIZS.js
+
+[MITM]
+hostname = ainvud.mingnianbaofu.top
+
 */
 var Rnik = JSON.parse($response.body);
 Rnik = {
