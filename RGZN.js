@@ -7,7 +7,19 @@ hostname = jiaodelong.top
 */
 
 var Rnik = JSON.parse($response.body);
-Rnik = {"code":200,"msg":"ok","data":{"id":"1788583692746792962","nickname":"尾号Rnik666","avatar":"https://oss.yhxykj.com/im-prod/2024/03/04/a5320a934dd44f50a422a5411eb7ed88.png","vipStatus":"1","vipLabel":"6","imgNum":999999999}
+Rnik = {
+  "msg" : "ok",
+  "data" : {
+    "vipStatus" : "1",
+    "id" : "1788583692746792962",
+    "vipLabel" : "6",
+    "nickname" : "Rnik666",
+    "imgNum" : 9999999999999,
+    "avatar" : "https://oss.yhxykj.com/im-prod/2024/03/04/a5320a934dd44f50a422a5411eb7ed88.png"
+  },
+  "code" : 200
+}
+
   
   
   
