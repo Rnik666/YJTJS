@@ -1,11 +1,11 @@
-*/宜搜小说@Rnik666
+/*宜搜小说@Rnik666
 
 [rewrite_local] 
 ^https?:\/\/api\.ieasou\.com\/api\/bookapp\/balance\.m? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/YSXS.js
 
 [MITM]
 hostname = api.ieasou.com
-/*
+*/
 var Rnik = JSON.parse($response.body);
 Rnik = {
  "success" : true,
