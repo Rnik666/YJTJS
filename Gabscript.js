@@ -3,7 +3,7 @@ AI Gabscript解锁@Rnik666
 
 
 [rewrite_local] 
-^https?:\/\/aigcfive\.laoyinnianhua\.com\/api\/members\/self url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AIGabscript.js
+^https?:\/\/aigcfive\.laoyinnianhua\.com\/api\/members\/self url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/Gabscript.js
 
 [MITM]
 hostname = aigcfive.laoyinnianhua.com
