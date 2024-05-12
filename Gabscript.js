@@ -9,26 +9,13 @@ AI Gabscript解锁@Rnik666
 hostname = aigcfive.laoyinnianhua.com
 */
 var Rnik = JSON.parse($response.body);
-Rnik = {
-  "data" : {
-    "phone" : "110",
-    "vip_renewal_of" : 1,
-    "unread" : {
-      "message" : 0,
-      "feedback" : 0,
-      "feedback_payment" : 0
-    },
-    "nickname" : "Rnik666",
-    "vip_expire_time" : 4092610661000,
-    "vip_period_type" : 3,
-    "vip" : 1,
-    "avatar_url" : "https://oss.yhxykj.com/im-prod/2024/05/08/aaf3b5dd36744a359f75ba110780f67c.png",
-    "unique_key" : "Rnik666"
-  },
-  "time" : 1715498107,
-  "code" : 200
-}
-
-  
-  
-$done({ body: JSON.stringify(Rnik) });
+   
+    Rnik.data.phone = "Rnik666";
+    Rnik.data.nickname = "Rnik666";
+    Rnik.data.vip_renewal_of = 1;
+    Rnik.data.vip_expire_time = 4092610661000;
+    Rnik.data.Vip = 1;
+    Rnik.data.vip_period_type = 3;
+    Rnik.data.avatar_url = "https://oss.yhxykj.com/im-prod/2024/05/08/aaf3b5dd36744a359f75ba110780f67c.png";
+   Rnik.data.unique_key = "Rnik666";
+  $done({body : JSON.stringify(Rnik)});
