@@ -10,47 +10,51 @@
 [MITM]
 hostname = buy.itunes.apple.com
 */
+
 var Rnik = JSON.parse($response.body);
 Rnik = {
-  "receipt" : {
-    "receipt_type" : "Production",
-    "app_item_id" : 1012168346,
-    "receipt_creation_date" : "2099-12-31 23:59:59 Etc/GMT",
-    "bundle_id" : "com.ld.sejian",
-    "original_purchase_date" : "2099-12-31 23:59:59 Etc/GMT",
-    "in_app" : [
-      {
-        "quantity": "1",
-        "purchase_date_ms": "4133750399000", 
-        "transaction_id": "987654321098765",       "original_transaction_id": "987654321098765", 
+  "receipt": { 
+      "receipt_type": "Production", 
+      "bundle_id": "Rnik666 ", 
+      "in_app": [ 
+        { 
+          "quantity": "1", 
+          "purchase_date_ms": "666666666666666", 
+          "transaction_id": "666666666666666", 
+          "original_transaction_id": "666666666666666", 
+          "product_id": "com.yearMember", 
+          "in_app_ownership_type": "PURCHASED", 
+          "original_purchase_date_ms": "666666666666666" 
+        } 
+      ], 
+      "application_version": "6", 
+      "original_purchase_date_ms": "666666666666666", 
+      "original_application_version": "6" 
+    }, 
+    "environment": "Production", 
+    "pending_renewal_info": [ 
+      { 
         "product_id": "com.yearMember", 
-        "in_app_ownership_type": "PURCHASED",
-        "original_purchase_date_ms": "4133750399000", 
-        "expires_date": "2099-12-31 23:59:59 Etc/GMT", 
-        "expires_date_pst": "2099-12-31 16:59:59 America/Los_Angeles", 
-        "is_in_intro_offer_period": "false",
-        "is_trial_period": "false"
-      }
-    ],
-    "adam_id" : 1012168346,
-    "receipt_creation_date_pst" : "2099-12-31 16:59:59 America/Los_Angeles",
-    "request_date" : "2024-05-13 17:13:59 Etc/GMT", 
-    "request_date_pst" : "2024-05-13 10:13:59 America/Los_Angeles",
-    "version_external_identifier" : 865876831,
-    "request_date_ms" : "1715620439975", 
-    "original_purchase_date_pst" : "2099-12-31 16:59:59 America/Los_Angeles", 
-    "application_version" : "20241000011",
-    "original_purchase_date_ms" : "4133750399000", 
-    "receipt_creation_date_ms" : "4133750399000", 
-    "original_application_version" : "20241000011",
-    "download_id" : 503466742368163792
-  },
-  "status" : 0,
-  "environment" : "Production"
-}
-
-
-  
+        "auto_renew_status": "1" 
+      } 
+    ], 
+    "status": 0, 
+    "latest_receipt_info": [ 
+      { 
+        "quantity": "1", 
+        "purchase_date_ms": "666666666666666", 
+        "expires_date": "6666-06-06 06:06:06 Etc\/GMT", 
+        "expires_date_pst": "6666-06-06 06:06:06 America\/Los_Angeles", 
+        "is_in_intro_offer_period": "false", 
+        "transaction_id": "666666666666666", 
+        "is_trial_period": "false", 
+        "original_transaction_id": "666666666666666", 
+        "product_id": "com.yearMember", 
+        "original_purchase_date_ms": "666666666666666", 
+        "expires_date_ms": "148204937166000" 
+      } 
+    ] 
+};
   
   
 $done({ body: JSON.stringify(Rnik) });
