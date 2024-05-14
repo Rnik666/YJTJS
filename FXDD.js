@@ -1,4 +1,4 @@
-*/发型多多
+/*发型多多
   @Rnik666
    仅供参考娱乐，禁止贩卖
 
@@ -8,8 +8,7 @@
 
 [MITM]
 hostname = buy.itunes.apple.com
-
-/*
+*/
 var Rnik = JSON.parse($response.body);
 Rnik = {
   "receipt" : {
