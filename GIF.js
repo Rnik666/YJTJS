@@ -1,5 +1,8 @@
 /*
-GIF解锁永久VIP
+  buy恢复购买通用脚本
+  所有使用同URL均可解锁
+   已成功解锁测试GIF，来电秀
+   永久VIP
   @Rnik666
 
 [rewrite_local] 
