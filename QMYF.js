@@ -5,7 +5,6 @@
 
 
 [rewrite_local] 
-
 ^https?:\/\/www\.qimingyoufu\.cn\/v01\/user-infourl script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/QMYF.js
 [MITM]
 hostname = www.qimingyoufu.cn
