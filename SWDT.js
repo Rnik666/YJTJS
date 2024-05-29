@@ -8,7 +8,7 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-(^https?:\/\/mindline\.cn\/userSync? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SWDT.js
+^https?:\/\/mindline\.cn\/userSync? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SWDT.js
 [MITM]
 hostname = mindline.cn
 
