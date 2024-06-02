@@ -8,8 +8,7 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-^https?:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/
-HXQ.js
+^https?:\/\/hxqapi\.hiyun\.tv\/api\/series\/rslvV4? url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/HXQ.js
 
 [MITM]
 hostname = hxqapi.hiyun.tv
