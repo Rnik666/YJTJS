@@ -9,13 +9,13 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-[#智能计算器]
+#智能计算器
 ^https?:\/\/new\.zxkt\.xyz\/api\/insertUser url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
-[#Chat Ai]
+#Chat Ai
 ^https?:\/\/ai\.zxkt\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
-[#实时翻译官]
+#实时翻译官
 ^https?:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
-[#翻译通]
+#翻译通
 ^https?:\/\/new\.zxkt\.xyz\/api\/getUserInfo url https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
 
 
