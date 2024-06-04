@@ -16,14 +16,14 @@
 #实时翻译官
 ^https?:\/\/new\.xslm333\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
 #翻译通
-^https?:\/\/new\.zxkt\.xyz\/api\/getUserInfo url https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
+^https?:\/\/new\.zxkt\.xyz\/api\/getUserInfo url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AI.js
 
 
 
 
 
 [MITM]
-hostname = new.zxkt.xyz,ai.zxkt.xyz,new.xslm333.xyz,
+hostname = new.zxkt.xyz,ai.zxkt.xyz,new.xslm333.xyz
 
 
 */
