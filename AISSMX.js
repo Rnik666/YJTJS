@@ -27,7 +27,7 @@
 
 [MITM]
 hostname = xiezuo.zongyionline.com,fanyi.zongyionline.com, huitu.zongyionline.com, lianai.zongyionline.com,
-lushi. zongyionline.com,xiutu.zongyionline.com
+lushi.zongyionline.com,xiutu.zongyionline.com
 
 */
 
