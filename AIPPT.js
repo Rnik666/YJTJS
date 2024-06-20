@@ -9,8 +9,7 @@
 
 [rewrite_local] 
 
-^https?:\/\/pay\.camoryapps\.com\/appPay\/api\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/
-(后戳)
+^https?:\/\/pay\.camoryapps\.com\/appPay\/api\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AIPPT.js
 
 [MITM]
 hostname = pay.camoryapps.com
