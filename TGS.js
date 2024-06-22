@@ -1,4 +1,4 @@
-/*        
+        
         ➪：图怪兽
 
         ★：⚠️仅支持编辑后截图保存⚠️
@@ -8,9 +8,9 @@
 
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
-[MITM]
-hostname = api.818ps.com
+
 [rewrite_local] 
 ^https?:\/\/api\.818ps\.com\/v4\/user\/userInfoAlls? url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/TGS1.js
 ^https?:\/\/api\.818ps\.com\/v4\/pay\/vip\/list? url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/TGS2.js
-
+[MITM]
+hostname = api.818ps.com
