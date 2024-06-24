@@ -15,10 +15,10 @@
 
 [rewrite_local] 
 ^https?:\/\/guagua\.beijingmorning\.cn\/index\/userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
-^https?:\/\/room\.beijingmorning\.cn\/user\/userinfo userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
-^https?:\/\/shoushen\.beijingmorning\.cn\/index\/userinfo userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
-^https?:\/\/nao\.beijingmorning\.cn\/user\/userinfo userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
-^https?:\/\/chong\.beijingmorning\.cn\/user\/userinfo userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG1.js
+^https?:\/\/room\.beijingmorning\.cn\/user\/userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
+^https?:\/\/shoushen\.beijingmorning\.cn\/index\/userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
+^https?:\/\/nao\.beijingmorning\.cn\/user\/userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG.js
+^https?:\/\/chong\.beijingmorning\.cn\/user\/userinfo url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/GG1.js
 [MITM]
 hostname = guagua.beijingmorning.cn,chong.beijingmorning.cn,room.beijingmorning.cn,shoushen.beijingmorning.cn,nao.beijingmorning.cn
 
