@@ -9,7 +9,7 @@
 
 [rewrite_local] 
 ^https?:\/\/api-poster\.ycase\.cn\/api\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/WS1.js
-^https?:\/\/api-poster\.ycase\.cn\/api\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/WS1.js 
+^https?:\/\/api-poster\.ycase\.cn\/api\/User\/home url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/WS1.js 
 ^https?:\/\/api-poster\.ycase\.cn\/web\/display url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/WS2.js
 [MITM]
 hostname = api-poster.ycase.cn
