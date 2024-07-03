@@ -1,0 +1,67 @@
+/*        
+        ➪：Mizframa
+
+        ★：解锁永久🆅🅸🅿
+
+        𖣘： @𝙍𝙣𝙞𝙠➏➏➏
+
+𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
+
+[rewrite_local] 
+^https?:\/\/api\.revenuecat\.com\/v1\/receipts url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/Mizframa.js
+
+[MITM]
+hostname = api.revenuecat.com
+
+
+*/
+
+ var Rnik = JSON.parse($response.body);
+Rnik = {
+  "request_date_ms" : 1719977731339,
+  "request_date" : "2024-07-03T03:35:31Z",
+  "subscriber" : {
+    "non_subscriptions" : {
+
+    },
+    "first_seen" : "2024-02-27T11:59:11Z",
+    "original_application_version" : "14",
+    "other_purchases" : {
+
+    },
+    "management_url" : "https://apps.apple.com/account/subscriptions",
+    "subscriptions" : {
+      "mf_20_1m_0_0" : {
+        "original_purchase_date" : "2024-07-02T04:40:27Z",
+        "expires_date" : "2099-09-29T04:40:26Z",
+        "is_sandbox" : false,
+        "refunded_at" : null,
+        "store_transaction_id" : "150001850550669",
+        "unsubscribe_detected_at" : "2024-07-02T05:47:47Z",
+        "grace_period_expires_date" : null,
+        "period_type" : "normal",
+        "purchase_date" : "2024-07-02T04:40:26Z",
+        "billing_issues_detected_at" : null,
+        "ownership_type" : "PURCHASED",
+        "store" : "app_store",
+        "auto_resume_date" : null
+      }
+    },
+    "entitlements" : {
+      "premium" : {
+        "grace_period_expires_date" : null,
+        "purchase_date" : "2024-07-02T04:40:26Z",
+        "product_identifier" : "mf_20_1m_0_0",
+        "expires_date" : "2099-09-29T04:40:26Z"
+      }
+    },
+    "original_purchase_date" : "2023-11-16T23:40:29Z",
+    "original_app_user_id" : "$RCAnonymousID:5f15e69d93144d23981ba7aebfda923d",
+    "last_seen" : "2024-07-02T04:39:09Z"
+  }
+}
+
+  
+  
+  
+$done({ body: JSON.stringify(Rnik) });
