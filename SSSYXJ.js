@@ -16,7 +16,7 @@
 ^https?:\/\/iossxsyxj\.sanwubeixin\.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SSSYXJ.js
 ^https?:\/\/ioscxsjb\.sanwubeixin\.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SSSYXJ.js
 ^https?:\/\/ioswzmmsmaqbwl\.sanwubeixin\.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SSSYXJ.js
-^https?:\/\/ioswzmmsmaqbwl\.sanwubeixin\.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SSSYXJ.js
+^https?:\/\/iosdzhtyqy\.sanwubeixin\.cn\/ct\/user\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SSSYXJ.js
 
 [MITM]
 hostname = iosyjjy.sanwubeixin.cn, iossxsyxj.sanwubeixin.cn, ioscxsjb.sanwubeixin.cn, ioswzmmsmaqbwl.sanwubeixin.cn, iosdzhtyqy.sanwubeixin.cn
