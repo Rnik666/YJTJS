@@ -9,31 +9,27 @@
 
 [rewrite_local] 
 
-^https?:\/\/yp\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/yp\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/ai\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/ai\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/jys\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/jys\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/ly\.autvideo\.com\/api\/user\/index url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/ly\.autvideo\.com\/api\/user\/index url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/lp\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/lp\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/pth\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/hb\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/pth\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/zimu\.yunmiaomiao\.cn\/api\/user\/index url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/hb\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/vedio\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/zimu\.yunmiaomiao\.cn\/api\/user\/index url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/bz\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
-^https?:\/\/vedio\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
-
-^https?:\/\/bz\.yunmiao\.tech\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
-
-^https?:\/\/xpc\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZNFY.js
+^https?:\/\/xpc\.autvideo\.com\/api\/user\/my url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/ZMFY.js
 
 [MITM]
 hostname = xpc.autvideo.com,bz.yunmiao.tech, vedio.yunmiao.tech,zimu.yunmiaomiao.cn, hb.yunmiao.tech,pth.autvideo.com,lp.autvideo.com, ly.autvideo.com, jys.autvideo.com,ai.yunmiao.tech, lyp.yunmiao.tech
