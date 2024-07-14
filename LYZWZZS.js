@@ -9,8 +9,8 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-^https?:\/\/api\.luyingou\.com\/user\/getAppUser url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/LY2.js
-^https?:\/\/api\.luyingou\.com\/user\/vip\/getIosVipPage url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/LY1.js
+^https?:\/\/api\.luyingou\.com\/user\/getAppUser url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/LY1.js
+^https?:\/\/api\.luyingou\.com\/user\/vip\/getIosVipPage url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/LY2.js
 
 [MITM]
 hostname = api.luyingou.com
