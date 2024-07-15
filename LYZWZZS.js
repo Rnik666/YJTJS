@@ -9,7 +9,7 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-^https?:\/\/api\.luyingou\.com\/user\/getAppUser url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/LYZWZZS.jS
+^https?:\/\/api\.luyingou\.com\/user\/getAppUser url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/LYZWZZS.js
 ^https?:\/\/api\.luyingou\.com\/user\/vip\/getIosVipPage url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/LYZWZZS.js
 
 [MITM]
