@@ -6,7 +6,9 @@
         𖣘： @𝙍𝙣𝙞𝙠➏➏➏
 
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
+[filter_local]
 
+host-suffix, pglstatp-toutiao.com, reject
 [rewrite_local] 
 
 ^https?:\/\/widgets-api\.kaixinyf\.cn\/User\/GetInfoByUserCode url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/IUV.js
