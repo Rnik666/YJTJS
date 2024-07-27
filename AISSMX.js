@@ -13,7 +13,7 @@
 [rewrite_local] 
 ^https?:\/\/xiezuo\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^https?:\/\/huitu\.zongyionline\.com\/version\/check script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/huitu\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
 ^https?:\/\/fanyi\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
