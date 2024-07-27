@@ -11,8 +11,16 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
+^https:\/\/xiezuo\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^http:\/\/huitu\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^https?:\/\/[^\/]*\.szjunhaotech\.com\/user$ url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https:\/\/fanyi\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+
+^http:\/\/lianai\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+
+^https:\/\/xiutu\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+
+^http:\/\/lushi\.szjunhaotech\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
 [MITM]
 hostname = *.szjunhaotech.com
