@@ -23,7 +23,7 @@
 ^http:\/\/lushi\.zongyionline\.com\/user url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
 [MITM]
-hostname = *.szjunhaotech.com
+hostname = *.szjunhaotech.com,*.zongyionline.com
 
 */
 
