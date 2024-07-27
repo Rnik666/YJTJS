@@ -15,13 +15,13 @@
 
 ^https?:\/\/huitu\.zongyionline\.com\/version\/check script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^https:\/\/fanyi\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/fanyi\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^http:\/\/lianai\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/lianai\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^https:\/\/xiutu\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/xiutu\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
-^http:\/\/lushi\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/lushi\.zongyionline\.com\/version\/check url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
 [MITM]
 hostname = huitu.zongyionline.com,fanyi.zongyionline.com,lianai.zongyionline.com,xiutu.zongyionline.com,lushi.zongyionline.com,xiezuo.szjunhaotech.com
