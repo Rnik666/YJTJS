@@ -12,7 +12,7 @@
 
 [rewrite_local] 
 
-^(https?:\/\/)(xiezuo|huitu|fanyi|lianai|xiutu|lushi)\.szjunhaotech\.com\/user$ url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
+^https?:\/\/[^\/]*\.szjunhaotech\.com\/user$ url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/AISSMX.js
 
 [MITM]
 hostname = *.szjunhaotech.com
