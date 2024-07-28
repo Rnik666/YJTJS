@@ -51,7 +51,7 @@ var body = $response.body.replace(/"user_type":\d/g,'"user_type":1')
 .replace(/"m_end_time":".*?\"/g,'"m_end_time":"2099-09-09 13:43:38"')
 .replace(/"svip_score":\d/g,'"svip_score":1')
 .replace(/"m_is_old":\d/g,'"m_is_old":8')
-.replace(/"photo":".*?\"/g,'"photo":"https://pavo.elongstatic.com/i/ori/1uG8Yb8CUWA.png"')
+.replace(/("icon"\s*:\s*")[^"]*(")/g, '$1https://pavo.elongstatic.com/i/ori/1uG8Yb8CUWA.png$2') 
 .replace(/"nickname":".*?\"/g,'"nickname":"Rnik666🎖"');
 
 $done({ body });
