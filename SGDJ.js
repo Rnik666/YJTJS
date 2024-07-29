@@ -1,5 +1,5 @@
 /*        
-        ➪：时光短剧
+        ➪：时光短剧➕乐刷短剧
 
         ★：解锁永久🆅🅸🅿
 
@@ -11,8 +11,10 @@
 
 ^https?:\/\/apidj\.meetboxs\.com\/api\/v1\/user\/account\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SGDJ.js
 
+^https?:\/\/akdj\.lunlunkj\.vip\/api\/v1\/user\/account\/info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/SGDJ.js
+
 [MITM]
-hostname = *.meetboxs.com
+hostname = *.meetboxs.com,akdj.lunlunkj.vip
 
 
 */
