@@ -64,6 +64,6 @@ host-suffix, baidu.com, reject
 
 
 
-^https?:\/\/api\.huaya\.cc\/Handler\/NovelTitles_Head\.ashx url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/hy2.js
+^https?:\/\/api\.huaya\.cc\/Handler\/NovelTitles_Head\.ashx url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/hy3.js
 
 
