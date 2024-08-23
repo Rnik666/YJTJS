@@ -16,7 +16,7 @@ host-suffix, baidu.com, reject
 [rewrite_local] 
 ^https?:\/\/api\.huaya\.cc\/Handler\/Users_Head\.ashx url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/hy1.js
 
-^https?:\/\/api\.huaya\.cc\/Handler\/Users_Head\.ashx url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/hy2.js
+^https?:\/\/api\.huaya\.cc\/Handler\/NovelTitles_Head\.ashx url script-response-body https://raw.githubusercontent.com/Rnik666/666/main/hy2.js
 
 
 [MITM]
