@@ -1,0 +1,48 @@
+port: 7890
+socks-port: 7891
+allow-lan: false
+mode: rule
+log-level: info
+external-controller: 0.0.0.0:9090
+
+# 自定义规则文件远程路径
+rule-providers:
+  wechat:
+    type: http
+    behavior: domain
+    url: "https://whatshub.top/rule/WeChat.rule"
+    path: ./rules/wechat.yaml
+    interval: 86400  # 每天自动更新
+
+  douyin:
+    type: http
+    behavior: domain
+    url: "https://whatshub.top/rule/DouYin.rule"
+    path: ./rules/douyin.yaml
+    interval: 86400
+
+proxies:
+  - name: "广东深圳节点"
+    type: vmess
+    server: 220.231.145.46
+    port: 14514
+    uuid: 83b019f2-a65f-47a6-9ef3-0bef448d87c
+    alterId: 0
+    cipher: auto
+    tls: false
+    network: tcp
+    servername: youku.com
+
+proxy-groups:
+  - name: "深圳专属"
+    type: select
+    proxies:
+      - "广东深圳节点"
+      - DIRECT  # 备用选项
+
+rules:
+  # 动态加载远程规则文件
+  - RULE-SET,wechat,深圳专属
+  - RULE-SET,douyin,深圳专属
+  - GEOIP,CN,DIRECT  # 国内其他流量直连
+  - MATCH,深圳专属   # 未匹配的流量默认走深圳节点（可选）
