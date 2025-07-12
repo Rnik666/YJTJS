@@ -6,7 +6,7 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local] 
-^https?:\/\/api\.mercari\.jp url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/JP.js
+^https?:\/\/api\.mercari\.jp url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/JPAPP.js
 
 [MITM]
 hostname = api.mercari.jp
