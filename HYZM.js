@@ -10,7 +10,6 @@
 [rewrite_local] 
 
 ^https?:\/\/api\.zeemo\.ai\/hy-caption-front\/api\/v1\/subscription\/get-pro-user-info url script-response-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/HYZM.js
-(后戳)
 
 [MITM]
 hostname = api.zeemo.ai
