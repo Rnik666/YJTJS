@@ -10,6 +10,9 @@
 [rewrite_local]
 
 ^http:\/\/47\.242\.203\.207\/api\/auth\/verify$ method POST url script-request-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/JSYH.js
+[MITM]
+hostname = 47.242.203.207
+
 
 
 */
