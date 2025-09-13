@@ -8,8 +8,8 @@
 𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹𒊹
 
 [rewrite_local]
-
 ^http:\/\/47\.242\.203\.207\/api\/auth\/verify$ method POST url script-request-body https://raw.githubusercontent.com/Rnik666/YJTJS/main/JSYH.js
+
 [MITM]
 hostname = 47.242.203.207
 
@@ -17,34 +17,26 @@ hostname = 47.242.203.207
 
 */
 
-// JSYH.js（终极版：自动适配请求体格式）
 if ($request.method === 'POST') {
-  try {
-    const contentType = $request.headers['Content-Type'] || $request.headers['content-type'];
-    
-    // 1. 处理JSON格式请求体（最常见）
-    if (contentType?.includes('application/json')) {
-      const body = JSON.parse($request.body);
-      body.udid = "jh_Model: iPhone, Localized Model: iPhone, Device ID: 88888";
-      body.code = "YIfzpxunAIia";
-      $done({ body: JSON.stringify(body) });
-    } 
-    // 2. 处理表单格式请求体（如x-www-form-urlencoded）
-    else if (contentType?.includes('application/x-www-form-urlencoded')) {
-      const formData = new URLSearchParams($request.body);
-      formData.set('udid', "jh_Model: iPhone, Localized Model: iPhone, Device ID: 88888");
-      formData.set('code', "YIfzpxunAIia");
-      $done({ body: formData.toString() });
-    } 
-    // 3. 处理其他格式（如form-data，暂不支持）
-    else {
-      console.warn("不支持的请求体格式:", contentType);
-      $done({ body: $request.body });
+    try {
+        // 打印原始请求体
+        console.log("原始请求体: " + $request.body);
+        let body = JSON.parse($request.body);
+        
+        // 替换目标字段
+        body.udid = "jh_Model: iPhone, Localized Model: iPhone, Device ID: 88888";
+        body.code = "88888";
+        
+        let newBody = JSON.stringify(body);
+        // 打印修改后的请求体
+        console.log("修改后的请求体: " + newBody);
+        
+        // 返回修改后的请求体
+        $done({ body: newBody });
+    } catch (e) {
+        console.log("JSON解析错误: " + e);
+        $done({});
     }
-  } catch (e) {
-    console.error("脚本执行错误:", e.message);
-    $done({ body: $request.body });
-  }
 } else {
-  $done({ body: $request.body });
+    $done({});
 }
