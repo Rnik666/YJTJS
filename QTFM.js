@@ -1,4 +1,4 @@
-```javascript
+
 /*
 [rewrite_local]
 ^https?:\/\/(user|app|entry)\.qtfm\.cn\/(m-bff|api|u2\/api)\/(v1|v5)\/(channel_verify|personal\/\?carrier|user).*$ url script-response-body https://gist.githubusercontent.com/Yu9191/551ff361d59fb0ab8f6d34da5bd1e1e0/raw/qtfm.js
@@ -77,4 +77,3 @@ else if ($request.url.indexOf("/user") != -1) {
 else {
   $done({});
 }
-```
