@@ -1,3 +1,4 @@
+```javascript
 /*
 [rewrite_local]
 ^https?:\/\/(user|app|entry)\.qtfm\.cn\/(m-bff|api|u2\/api)\/(v1|v5)\/(channel_verify|personal\/\?carrier|user).*$ url script-response-body https://gist.githubusercontent.com/Yu9191/551ff361d59fb0ab8f6d34da5bd1e1e0/raw/qtfm.js
@@ -14,6 +15,7 @@ hostname = app.qtfm.cn, user.qtfm.cn, recpage-c.qtfm.cn, entry.qtfm.cn, ad.qtfm.
 if ($request.url.indexOf("/m-bff/v1/audiostreams") != -1) {
   var headers = $request.headers;
   
+  // 更新为新的身份凭证
   headers["qt-device-id"] = "6a2ccaf7b71bba75665b48d5d7f28a14";
   headers["QT-Device-Id"] = "6a2ccaf7b71bba75665b48d5d7f28a14";
   
@@ -23,11 +25,17 @@ if ($request.url.indexOf("/m-bff/v1/audiostreams") != -1) {
   headers["qt-access-token"] = "790876f7030c4fda9d062286ed5ba6e0";
   headers["QT-Access-Token"] = "790876f7030c4fda9d062286ed5ba6e0";
   
-  headers["cookie"] = "HWWAFSESID=4b157d066030704d9a; HWWAFSESTIME=1773064505808";
-  headers["Cookie"] = "HWWAFSESID=4b157d066030704d9a; HWWAFSESTIME=1773064505808";
+  headers["cookie"] = "HWWAFSESID=c15a4166e7108046604; HWWAFSESTIME=1773108721962";
+  headers["Cookie"] = "HWWAFSESID=c15a4166e7108046604; HWWAFSESTIME=1773108721962";
   
   headers["user-agent"] = "QingTing-iOS/11.0.2.12 com.Qting.QTTour Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148";
   headers["User-Agent"] = "QingTing-iOS/11.0.2.12 com.Qting.QTTour Mozilla/5.0 (iPhone; CPU iPhone OS 15_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148";
+  
+  // 可选：添加其他请求头以完全匹配抓包信息
+  headers["QT-App-Version"] = "11.0.2.0";
+  headers["QT-App-Platform"] = "iOS";
+  headers["Accept-Language"] = "zh-Hans-CN;q=1";
+  // Connection 和 Accept-Encoding 保留默认即可，避免干扰
   
   $done({ headers: headers });
 }
@@ -69,3 +77,4 @@ else if ($request.url.indexOf("/user") != -1) {
 else {
   $done({});
 }
+```
